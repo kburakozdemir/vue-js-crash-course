@@ -1,10 +1,12 @@
 <template>
   <div id="app">
-    {{ msg }}
+    <Todos />
   </div>
 </template>
 
 <script>
+import Todos from "./components/Todos";
+
 export default {
   name: "App",
   components: {},
