@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Todos v-bind:todos="todos" />
+    <Todos v-bind:todos="todos" v-on:del-todo="deleteTodo" />
   </div>
 </template>
 
@@ -10,7 +10,7 @@ import Todos from "./components/Todos";
 export default {
   name: "App",
   components: {
-    Todos
+    Todos,
   },
   data() {
     return {
@@ -33,6 +33,11 @@ export default {
         },
       ],
     };
+  },
+  methods: {
+    deleteTodo(id) {
+      this.todos = this.todos.filter(todo => todo.id !== id);
+    },
   },
 };
 </script>
