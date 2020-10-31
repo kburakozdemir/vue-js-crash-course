@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Todos />
+    <Todos v-bind:todos="todos" />
   </div>
 </template>
 
@@ -9,7 +9,9 @@ import Todos from "./components/Todos";
 
 export default {
   name: "App",
-  components: {},
+  components: {
+    Todos
+  },
   data() {
     return {
       todos: [
