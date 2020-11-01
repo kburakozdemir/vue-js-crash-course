@@ -37,3 +37,7 @@ npm run lint
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## TODO
+
+It is better to update checkboxes for completed items when data is loaded.
