@@ -16,7 +16,7 @@ This repository has 3 branches:
 # Try npm ci first
 npm ci
 
-# If npm ci fails run npm install
+# If npm ci fails, run npm install
 npm install
 ```
 
