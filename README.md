@@ -4,7 +4,7 @@
 
 This repository has 3 branches:
 
-1. `master` works static data part
+1. `master` works with static data
 
 2. `jsonplaceholder` works with [{JSON} Placeholder](https://jsonplaceholder.typicode.com)
 
