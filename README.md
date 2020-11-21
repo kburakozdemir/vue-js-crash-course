@@ -4,7 +4,7 @@
 
 This repository has 3 branches:
 
-1. `master` works static data part
+1. `master` works with static data
 
 2. `jsonplaceholder` works with [{JSON} Placeholder](https://jsonplaceholder.typicode.com)
 
@@ -13,6 +13,10 @@ This repository has 3 branches:
 ## Project setup
 
 ```bash
+# Try npm ci first
+npm ci
+
+# If npm ci fails, run npm install
 npm install
 ```
 
@@ -37,6 +41,14 @@ npm run lint
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## node & npm & vue-cli Versions
+
+| Software | Version |
+|----------|---------|
+| node     | v15.0.1 |
+| npm      | 7.0.3   |
+| vue-cli  | 4.5.8   |
 
 ## TODO
 
